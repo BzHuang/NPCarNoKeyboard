@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2050713A1E1F3B90003571C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 205071391E1F3B90003571C9 /* main.m */; };
+		2050713D1E1F3B90003571C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050713C1E1F3B90003571C9 /* AppDelegate.m */; };
+		205071401E1F3B90003571C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050713F1E1F3B90003571C9 /* ViewController.m */; };
+		205071431E1F3B90003571C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205071411E1F3B90003571C9 /* Main.storyboard */; };
+		205071451E1F3B90003571C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205071441E1F3B90003571C9 /* Assets.xcassets */; };
+		205071481E1F3B90003571C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205071461E1F3B90003571C9 /* LaunchScreen.storyboard */; };
+		205071531E1F3B90003571C9 /* NPCarNoKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205071521E1F3B90003571C9 /* NPCarNoKeyboardTests.m */; };
+		2050715E1E1F3B90003571C9 /* NPCarNoKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050715D1E1F3B90003571C9 /* NPCarNoKeyboardUITests.m */; };
+		205071701E1F3BCE003571C9 /* NPCarNoInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050716D1E1F3BCE003571C9 /* NPCarNoInputView.m */; };
+		205071711E1F3BCE003571C9 /* NPCarNoKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2050716F1E1F3BCE003571C9 /* NPCarNoKeyboard.m */; };
+		2050717B1E1F3D05003571C9 /* point_NPCarNoKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 205071751E1F3D04003571C9 /* point_NPCarNoKeyboard.png */; };
+		2050717C1E1F3D05003571C9 /* point_NPCarNoKeyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 205071761E1F3D04003571C9 /* point_NPCarNoKeyboard@2x.png */; };
+		2050717D1E1F3D05003571C9 /* point_NPCarNoKeyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 205071771E1F3D04003571C9 /* point_NPCarNoKeyboard@3x.png */; };
+		205071811E1F4114003571C9 /* back_NPCarNoKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2050717E1E1F4114003571C9 /* back_NPCarNoKeyboard.png */; };
+		205071821E1F4114003571C9 /* back_NPCarNoKeyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2050717F1E1F4114003571C9 /* back_NPCarNoKeyboard@2x.png */; };
+		205071831E1F4114003571C9 /* back_NPCarNoKeyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 205071801E1F4114003571C9 /* back_NPCarNoKeyboard@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2050714F1E1F3B90003571C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2050712D1E1F3B8F003571C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205071341E1F3B90003571C9;
+			remoteInfo = NPCarNoKeyboard;
+		};
+		2050715A1E1F3B90003571C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2050712D1E1F3B8F003571C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205071341E1F3B90003571C9;
+			remoteInfo = NPCarNoKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205071351E1F3B90003571C9 /* NPCarNoKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPCarNoKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205071391E1F3B90003571C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2050713B1E1F3B90003571C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2050713C1E1F3B90003571C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2050713E1E1F3B90003571C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2050713F1E1F3B90003571C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		205071421E1F3B90003571C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		205071441E1F3B90003571C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		205071471E1F3B90003571C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		205071491E1F3B90003571C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2050714E1E1F3B90003571C9 /* NPCarNoKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPCarNoKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205071521E1F3B90003571C9 /* NPCarNoKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPCarNoKeyboardTests.m; sourceTree = "<group>"; };
+		205071541E1F3B90003571C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205071591E1F3B90003571C9 /* NPCarNoKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPCarNoKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2050715D1E1F3B90003571C9 /* NPCarNoKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPCarNoKeyboardUITests.m; sourceTree = "<group>"; };
+		2050715F1E1F3B90003571C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2050716C1E1F3BCE003571C9 /* NPCarNoInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCarNoInputView.h; sourceTree = "<group>"; };
+		2050716D1E1F3BCE003571C9 /* NPCarNoInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCarNoInputView.m; sourceTree = "<group>"; };
+		2050716E1E1F3BCE003571C9 /* NPCarNoKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCarNoKeyboard.h; sourceTree = "<group>"; };
+		2050716F1E1F3BCE003571C9 /* NPCarNoKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCarNoKeyboard.m; sourceTree = "<group>"; };
+		205071751E1F3D04003571C9 /* point_NPCarNoKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_NPCarNoKeyboard.png; sourceTree = "<group>"; };
+		205071761E1F3D04003571C9 /* point_NPCarNoKeyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point_NPCarNoKeyboard@2x.png"; sourceTree = "<group>"; };
+		205071771E1F3D04003571C9 /* point_NPCarNoKeyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point_NPCarNoKeyboard@3x.png"; sourceTree = "<group>"; };
+		2050717E1E1F4114003571C9 /* back_NPCarNoKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_NPCarNoKeyboard.png; sourceTree = "<group>"; };
+		2050717F1E1F4114003571C9 /* back_NPCarNoKeyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_NPCarNoKeyboard@2x.png"; sourceTree = "<group>"; };
+		205071801E1F4114003571C9 /* back_NPCarNoKeyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_NPCarNoKeyboard@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205071321E1F3B90003571C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2050714B1E1F3B90003571C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205071561E1F3B90003571C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2050712C1E1F3B8F003571C9 = {
+			isa = PBXGroup;
+			children = (
+				205071371E1F3B90003571C9 /* NPCarNoKeyboard */,
+				205071511E1F3B90003571C9 /* NPCarNoKeyboardTests */,
+				2050715C1E1F3B90003571C9 /* NPCarNoKeyboardUITests */,
+				205071361E1F3B90003571C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		205071361E1F3B90003571C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205071351E1F3B90003571C9 /* NPCarNoKeyboard.app */,
+				2050714E1E1F3B90003571C9 /* NPCarNoKeyboardTests.xctest */,
+				205071591E1F3B90003571C9 /* NPCarNoKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205071371E1F3B90003571C9 /* NPCarNoKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2050716B1E1F3BAC003571C9 /* NPCarNoKeyboard */,
+				2050713B1E1F3B90003571C9 /* AppDelegate.h */,
+				2050713C1E1F3B90003571C9 /* AppDelegate.m */,
+				2050713E1E1F3B90003571C9 /* ViewController.h */,
+				2050713F1E1F3B90003571C9 /* ViewController.m */,
+				205071411E1F3B90003571C9 /* Main.storyboard */,
+				205071441E1F3B90003571C9 /* Assets.xcassets */,
+				205071461E1F3B90003571C9 /* LaunchScreen.storyboard */,
+				205071491E1F3B90003571C9 /* Info.plist */,
+				205071381E1F3B90003571C9 /* Supporting Files */,
+			);
+			path = NPCarNoKeyboard;
+			sourceTree = "<group>";
+		};
+		205071381E1F3B90003571C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				205071391E1F3B90003571C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		205071511E1F3B90003571C9 /* NPCarNoKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				205071521E1F3B90003571C9 /* NPCarNoKeyboardTests.m */,
+				205071541E1F3B90003571C9 /* Info.plist */,
+			);
+			path = NPCarNoKeyboardTests;
+			sourceTree = "<group>";
+		};
+		2050715C1E1F3B90003571C9 /* NPCarNoKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2050715D1E1F3B90003571C9 /* NPCarNoKeyboardUITests.m */,
+				2050715F1E1F3B90003571C9 /* Info.plist */,
+			);
+			path = NPCarNoKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		2050716B1E1F3BAC003571C9 /* NPCarNoKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2050716C1E1F3BCE003571C9 /* NPCarNoInputView.h */,
+				2050716D1E1F3BCE003571C9 /* NPCarNoInputView.m */,
+				2050716E1E1F3BCE003571C9 /* NPCarNoKeyboard.h */,
+				2050716F1E1F3BCE003571C9 /* NPCarNoKeyboard.m */,
+				2050717E1E1F4114003571C9 /* back_NPCarNoKeyboard.png */,
+				2050717F1E1F4114003571C9 /* back_NPCarNoKeyboard@2x.png */,
+				205071801E1F4114003571C9 /* back_NPCarNoKeyboard@3x.png */,
+				205071751E1F3D04003571C9 /* point_NPCarNoKeyboard.png */,
+				205071761E1F3D04003571C9 /* point_NPCarNoKeyboard@2x.png */,
+				205071771E1F3D04003571C9 /* point_NPCarNoKeyboard@3x.png */,
+			);
+			path = NPCarNoKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		205071341E1F3B90003571C9 /* NPCarNoKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205071621E1F3B90003571C9 /* Build configuration list for PBXNativeTarget "NPCarNoKeyboard" */;
+			buildPhases = (
+				205071311E1F3B90003571C9 /* Sources */,
+				205071321E1F3B90003571C9 /* Frameworks */,
+				205071331E1F3B90003571C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPCarNoKeyboard;
+			productName = NPCarNoKeyboard;
+			productReference = 205071351E1F3B90003571C9 /* NPCarNoKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2050714D1E1F3B90003571C9 /* NPCarNoKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205071651E1F3B90003571C9 /* Build configuration list for PBXNativeTarget "NPCarNoKeyboardTests" */;
+			buildPhases = (
+				2050714A1E1F3B90003571C9 /* Sources */,
+				2050714B1E1F3B90003571C9 /* Frameworks */,
+				2050714C1E1F3B90003571C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205071501E1F3B90003571C9 /* PBXTargetDependency */,
+			);
+			name = NPCarNoKeyboardTests;
+			productName = NPCarNoKeyboardTests;
+			productReference = 2050714E1E1F3B90003571C9 /* NPCarNoKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		205071581E1F3B90003571C9 /* NPCarNoKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205071681E1F3B90003571C9 /* Build configuration list for PBXNativeTarget "NPCarNoKeyboardUITests" */;
+			buildPhases = (
+				205071551E1F3B90003571C9 /* Sources */,
+				205071561E1F3B90003571C9 /* Frameworks */,
+				205071571E1F3B90003571C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2050715B1E1F3B90003571C9 /* PBXTargetDependency */,
+			);
+			name = NPCarNoKeyboardUITests;
+			productName = NPCarNoKeyboardUITests;
+			productReference = 205071591E1F3B90003571C9 /* NPCarNoKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2050712D1E1F3B8F003571C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Aleven;
+				TargetAttributes = {
+					205071341E1F3B90003571C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 43W82S53E6;
+						ProvisioningStyle = Automatic;
+					};
+					2050714D1E1F3B90003571C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 205071341E1F3B90003571C9;
+					};
+					205071581E1F3B90003571C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 205071341E1F3B90003571C9;
+					};
+				};
+			};
+			buildConfigurationList = 205071301E1F3B8F003571C9 /* Build configuration list for PBXProject "NPCarNoKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2050712C1E1F3B8F003571C9;
+			productRefGroup = 205071361E1F3B90003571C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205071341E1F3B90003571C9 /* NPCarNoKeyboard */,
+				2050714D1E1F3B90003571C9 /* NPCarNoKeyboardTests */,
+				205071581E1F3B90003571C9 /* NPCarNoKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		205071331E1F3B90003571C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205071481E1F3B90003571C9 /* LaunchScreen.storyboard in Resources */,
+				2050717D1E1F3D05003571C9 /* point_NPCarNoKeyboard@3x.png in Resources */,
+				205071821E1F4114003571C9 /* back_NPCarNoKeyboard@2x.png in Resources */,
+				2050717B1E1F3D05003571C9 /* point_NPCarNoKeyboard.png in Resources */,
+				2050717C1E1F3D05003571C9 /* point_NPCarNoKeyboard@2x.png in Resources */,
+				205071811E1F4114003571C9 /* back_NPCarNoKeyboard.png in Resources */,
+				205071451E1F3B90003571C9 /* Assets.xcassets in Resources */,
+				205071431E1F3B90003571C9 /* Main.storyboard in Resources */,
+				205071831E1F4114003571C9 /* back_NPCarNoKeyboard@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2050714C1E1F3B90003571C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205071571E1F3B90003571C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205071311E1F3B90003571C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205071401E1F3B90003571C9 /* ViewController.m in Sources */,
+				205071701E1F3BCE003571C9 /* NPCarNoInputView.m in Sources */,
+				205071711E1F3BCE003571C9 /* NPCarNoKeyboard.m in Sources */,
+				2050713D1E1F3B90003571C9 /* AppDelegate.m in Sources */,
+				2050713A1E1F3B90003571C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2050714A1E1F3B90003571C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205071531E1F3B90003571C9 /* NPCarNoKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205071551E1F3B90003571C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2050715E1E1F3B90003571C9 /* NPCarNoKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205071501E1F3B90003571C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205071341E1F3B90003571C9 /* NPCarNoKeyboard */;
+			targetProxy = 2050714F1E1F3B90003571C9 /* PBXContainerItemProxy */;
+		};
+		2050715B1E1F3B90003571C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205071341E1F3B90003571C9 /* NPCarNoKeyboard */;
+			targetProxy = 2050715A1E1F3B90003571C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		205071411E1F3B90003571C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205071421E1F3B90003571C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		205071461E1F3B90003571C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205071471E1F3B90003571C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		205071601E1F3B90003571C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		205071611E1F3B90003571C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205071631E1F3B90003571C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43W82S53E6;
+				INFOPLIST_FILE = NPCarNoKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aleven.NPCarNoKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		205071641E1F3B90003571C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43W82S53E6;
+				INFOPLIST_FILE = NPCarNoKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aleven.NPCarNoKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		205071661E1F3B90003571C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NPCarNoKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aleven.NPCarNoKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPCarNoKeyboard.app/NPCarNoKeyboard";
+			};
+			name = Debug;
+		};
+		205071671E1F3B90003571C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NPCarNoKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aleven.NPCarNoKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPCarNoKeyboard.app/NPCarNoKeyboard";
+			};
+			name = Release;
+		};
+		205071691E1F3B90003571C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NPCarNoKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aleven.NPCarNoKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NPCarNoKeyboard;
+			};
+			name = Debug;
+		};
+		2050716A1E1F3B90003571C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NPCarNoKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aleven.NPCarNoKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NPCarNoKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205071301E1F3B8F003571C9 /* Build configuration list for PBXProject "NPCarNoKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205071601E1F3B90003571C9 /* Debug */,
+				205071611E1F3B90003571C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205071621E1F3B90003571C9 /* Build configuration list for PBXNativeTarget "NPCarNoKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205071631E1F3B90003571C9 /* Debug */,
+				205071641E1F3B90003571C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		205071651E1F3B90003571C9 /* Build configuration list for PBXNativeTarget "NPCarNoKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205071661E1F3B90003571C9 /* Debug */,
+				205071671E1F3B90003571C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		205071681E1F3B90003571C9 /* Build configuration list for PBXNativeTarget "NPCarNoKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205071691E1F3B90003571C9 /* Debug */,
+				2050716A1E1F3B90003571C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2050712D1E1F3B8F003571C9 /* Project object */;
+}
